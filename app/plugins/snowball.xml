@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+	<name>Snowball stemmer</name>
+	<description>Snowball stemmer</description>
+	<jar>snowball.jar</jar>
+	<annotators>
+		<annotator
+			class="de.tudarmstadt.linglit.linfw.snowball.annotator.StemAnnotator">Snowball stemmer</annotator>
+	</annotators>
+</plugin>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+	<name>Biber's register dimensions</name>
+	<description>Register classification by Douglas Biber</description>
+	<jar>register.jar</jar>
+	<dependencies>
+		<dependency>opennlp</dependency>
+	</dependencies>
+	<annotators>
+		<annotator
+			class="de.tudarmstadt.linglit.linfw.register.biber.RegisterAnnotator">Register dimension annotator</annotator>
+	</annotators>
+	<visualizers>
+		<visualizer class="de.tudarmstadt.linglit.linfw.gui.visualization.RegisterVisualizer" />
+	</visualizers>
+	<featuregenerators>
+		<featuregenerator class="de.tudarmstadt.linglit.linfw.register.features.GasthausFeatureGenerator" />
+	</featuregenerators>
+</plugin>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+	<name>Star Trek</name>
+	<description>Star Trek Plugin</description>
+	<jar>startrek.jar</jar>
+	<annotators>
+		<annotator class="de.tudarmstadt.linglit.linfw.basic.annotator.SettingAnnotator">Star Trek Setting Annotator</annotator>
+		<annotator class="de.tudarmstadt.linglit.linfw.basic.annotator.StatementAnnotator">Star Trek Statement Annotator</annotator>
+	</annotators>
+</plugin>

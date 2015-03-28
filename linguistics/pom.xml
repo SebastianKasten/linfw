@@ -5,7 +5,6 @@
 	<groupId>de.tudarmstadt.linglit.linfw</groupId>
 	<artifactId>linguistics</artifactId>
 	<version>0.1</version>
-	<packaging>jar</packaging>
 
 	<name>linguistics</name>
 
@@ -35,7 +34,7 @@
 			<version>2.3.2</version>
 			<configuration>
 				<source>1.7</source>
-				<target>1.7</target>
+				<target>1.8</target>
 			</configuration>
 		</plugin>
 	  </plugins>

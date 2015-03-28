@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+	<name>OpenNLP</name>
+	<description>Apache OpenNLP Plugin</description>
+	<jar>opennlp.jar</jar>
+	<annotators>
+		<annotator
+			class="de.tudarmstadt.linglit.linfw.basic.annotator.PartOfSpeechAnnotator">OpenNLP Part-of-speech tagger</annotator>
+		<annotator
+			class="de.tudarmstadt.linglit.linfw.basic.annotator.TokenAnnotator">OpenNLP trained tokenizer</annotator>
+		<annotator
+			class="de.tudarmstadt.linglit.linfw.basic.annotator.TrainedSentenceAnnotator">OpenNLP trained sentence detector</annotator>
+	</annotators>
+</plugin>
