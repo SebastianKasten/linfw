@@ -5,7 +5,6 @@
   <groupId>de.tudarmstadt.linglit.linfw</groupId>
   <artifactId>core</artifactId>
   <version>0.1</version>
-  <packaging>jar</packaging>
 
   <name>core</name>
   <url>http://maven.apache.org</url>
